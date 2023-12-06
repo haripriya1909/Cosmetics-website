@@ -1,0 +1,184 @@
+html a {
+    text-decoration: none;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+#Slogan {
+    align-items: center;
+    color: #0000008c;
+    background-color: #fdfcf6;
+    text-shadow: 1px 2px 4px rgba(0, 0, 0, 0.40);
+    font-family: 'Bodoni Moda', serif; 
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2.4px;
+    border-bottom: 2px solid #f5efdb;
+}
+
+#userRegister {
+    align-items: center; 
+    padding: 5px;
+}
+.search{
+    display: flex;
+    flex-direction: row;
+}
+.icon{
+    padding-right: 5px;
+}
+input[type="search"] {
+    width: 40px; /* Adjust the width as needed */
+    height: 30px; /* Adjust the height as needed */
+    border-radius: 5px; /* Optional: Add border-radius for a rounded appearance */
+}
+
+.SearchProduct {
+    padding: 8px; /* Optional: Adjust padding for better visual appearance */
+}
+#Logo img {
+    object-fit: cover;
+    height: 4rem;
+    width: 4rem;
+}
+#userRegister img{
+    height: 20px;
+    width: 20px;
+    object-fit: cover;
+}
+.search input[type="search"]{
+
+width: 20rem;
+height: 2rem;
+border: 1px solid #0000003b;
+padding: 3px;
+margin-left: 7px;
+}
+#nav a {
+    color: #000;
+    font-family: 'Oranienbaum', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: 5px;
+    margin-left: 2rem;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+#nav a:hover{
+    transform: scale(1.1); /* Increase the size by 10% */
+    box-shadow: 0 0 20px rgba(251, 250, 250, 0.3); /* Add a subtle shadow */
+}
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .profile-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+  }
+  
+  .user-details {
+    text-align: center;
+  }
+  
+  .user-details img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  .order-history {
+    max-width: 400px;
+  }
+  
+  .order-history h2 {
+    color: #333;
+  }
+  
+  .order-history ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .order-history li {
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  .order-history li:last-child {
+    border-bottom: none;
+  }
+  .upper-footer h3{
+    color: #000000bd;
+    font-family: 'Bodoni Moda', serif;
+    font-size: 25px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.upper-footer h4{
+    font-family: 'Poppins', sans-serif;
+    color: #0000008a;
+    font-size: 12px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+.upper-footer p{
+    font-family: 'Poppins', sans-serif;
+    color: #0000008a;
+    font-size: 12px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+.info{
+    margin-right: 60px;
+}
+input[type="email"]{
+    width:24rem;
+    height: 35px;
+    border-radius: 3rem;
+    padding-left: 10px;
+    border: 2px solid #00000022;
+}
+.button{
+    margin-top: 1rem;
+    overflow: hidden;
+}
+.button button{
+    border-radius: 30px;
+    background-color: rgba(234, 78, 78, 0.817);
+}
+.social img{
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.cosmetic-logo{
+    padding: 10px;
+}
+.payment{
+    padding: 10px;
+}
+.cosmetic-logo img{
+    margin-bottom: 6px;
+}
+.payment img{
+    margin-bottom: 6px;
+}
